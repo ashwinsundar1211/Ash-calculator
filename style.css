@@ -1,0 +1,17 @@
+body{
+  background:url("calculator_image.jpeg");
+  text-align: center;
+  font-family: 'Moo Lah Lah', sans-serif;
+}
+#Answer
+{
+  color: rgb(255, 155, 55);
+  background-color: wheat;
+  width: 20%;
+  text-align: center;
+  font-size: larger;
+}
+#input_textboxes
+{
+  font-family: 'Moo Lah Lah', sans-serif;
+}

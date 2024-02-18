@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Calculator + Counter</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Moo+Lah+Lah&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+            <section>
+                <h1 id="Heading">Calculator</h1><img src="https://i.pinimg.com/originals/43/28/c3/4328c30611e0c3a5556fa1d4cb35dae7.png" height="50px" width="50px">
+            </section>
+            <br>
+            <label style="color: red;">Note : For percentage, only the first text box can be used.</label>
+            <br><br>
+            <div id="input_textboxes">
+            <input type="number" placeholder="Enter your first Number" id="1Num">
+            <br><br>
+            <input type="number" placeholder="Enter your second Number" id="2Num">
+            </div>
+            <br><br>
+            <div id="buttons">
+            <button id="Add" onclick="Add()" class="btn btn-success">Add</button>
+            <br><br>
+            <button id="Subtract" onclick="Subtract()" class="btn btn-danger">Subtract</button>
+            <br><br>
+            <button id="Multiply" onclick="Multiply()" class="btn btn-primary">Multiply</button>
+            <br><br>
+            <button id="Divide" onclick="Divide()" class="btn btn-secondary">Divide</button>
+            <br><br>
+            <button id="Percentage" onclick="Percentage()" class="btn btn-warning">Percentage</button>
+            </div>
+            <br><br>
+            <label id="Answer">Answer Displayed here</label>
+    </body>
+</html>
